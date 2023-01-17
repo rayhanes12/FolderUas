@@ -18,11 +18,11 @@ public class UasAlgo {
             pesanan.setIDMovie(1);
             pesanan.setJumlahTiket(JumUser);
             pesanan.setMovieName(MovieSelect);
-            pesanan.setMoviePrice(35000);
+            pesanan.setMoviePrice(55000);
             pesanan.setUserName(String.valueOf(myUser1));
             nontonApa.add(pesanan);
         }
-        pesanan.TotalJumlahPenonton(nontonApa, "High & Low : The Worst Cross");
+        pesanan.TotalJumlahPenonton(nontonApa, "Avatar");
 
     }
 
@@ -116,7 +116,7 @@ class CGV{
             System.out.println("SISA TIKET " +jumUser);
             System.out.println("GATE ROOM "+"1");
             System.out.println("FILM PILIHAN  "+movieSelect);
-            System.out.println("HARGA TIKET"+35000);
+            System.out.println("HARGA TIKET"+55000);
         }
         for (int index = 0;index<jumUser;index++){
             System.out.println( "data penonton" +myUser1);
